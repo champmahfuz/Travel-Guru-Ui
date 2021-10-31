@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "name": "Hawai",
+        "price": "30000",
+        "description": "The Big Island (officially named Hawaii) is the largest island in the United States' Hawaiian archipelago in the Central Pacific. Its diverse terrain spans colored-sand beaches at Papakolea (green) and Punalu’u (black) to lush rainforest. Within Volcanoes National Park, there are 2 active volcanoes, Kilauea and Mauna Loa.",
+        "img": "https://i.ibb.co/3MgSSMJ/package1.webp",
+        "img1": "https://i.ibb.co/GQbkyJ7/alnum1.webp"
+    },
+    {
+        "id": 2,
+        "name": "Itlay",
+        "price": "1000000",
+        "description": "Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins. Other major cities include Florence, with Renaissance masterpieces such as Michelangelo’s David and Brunelleschi's Duomo; Venice, the city of canals; and Milan, Italy’s fashion capital",
+        "img": "https://i.ibb.co/HCxJk96/package2.webp",
+        "img1": "https://i.ibb.co/nwfwkt3/album2.webp"
+    },
+    {
+        "id": 3,
+        "name": "Maldives",
+        "price": "50000",
+        "description": "Maldives, officially the Republic of Maldives, is an archipelagic state in the Indian subcontinent of Asia, situated in the Indian Ocean. It lies southwest of Sri Lanka and India, about 750 kilometres from the Asian continent's mainland",
+        "img": "https://i.ibb.co/YknHZB9/package3.jpg",
+        "img1": "https://i.ibb.co/nwfwkt3/album2.webp"
+    },
+    {
+        "id": 4,
+        "name": "Bali",
+        "price": "200000",
+        "description": "Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands. East of Java and west of Lombok, the province includes the island of Bali and a few smaller neighbouring islands, notably Nusa Penida, Nusa Lembongan, and Nusa Ceningan.",
+        "img": "https://i.ibb.co/2hj2ZNG/paackage4.webp",
+        "img1": "https://i.ibb.co/Jv3g8cr/album4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "India",
+        "price": "5000",
+        "description": "India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world",
+        "img": "https://i.ibb.co/1v5DMSQ/package5.jpg",
+        "img1": "https://i.ibb.co/tHvqL7f/album5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Egypt",
+        "price": "400000",
+        "description": "Egypt, a country linking northeast Africa with the Middle East, dates to the time of the pharaohs. Millennia-old monuments sit along the fertile Nile River Valley, including Giza's colossal Pyramids and Great Sphinx as well as Luxor's hieroglyph-lined Karnak Temple and Valley of the Kings tombs. The capital, Cairo, is home to Ottoman landmarks like Muhammad Ali Mosque and the Egyptian Museum, a trove of antiquities",
+        "img": "https://i.ibb.co/R3B5nGX/package6.jpg",
+        "img1": "https://i.ibb.co/9VBwxkZ/album6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Japan",
+        "price": "500000",
+        "description": "Japan is an island country in East Asia, located in the northwest Pacific Ocean. It is bordered on the west by the Sea of Japan, and extends from the Sea of Okhotsk in the north toward the East China Sea and Taiwan in the south",
+        "img": "https://i.ibb.co/jktDGpq/package7.webp",
+        "img1": "https://i.ibb.co/qjp0LKX/album7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Canada",
+        "price": "1000000",
+        "description": "Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres, making it the world's second-largest country by total area. ",
+        "img": "https://i.ibb.co/FngQy46/package8.webp",
+        "img1": "https://i.ibb.co/L0Z9CvL/album8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Switzerland",
+        "price": "10000000",
+        "description": "Switzerland is a mountainous Central European country, home to numerous lakes, villages and the high peaks of the Alps. Its cities contain medieval quarters, with landmarks like capital Bern’s Zytglogge clock tower and Lucerne’s wooden chapel bridge. The country is also known for its ski resorts and hiking trails. Banking and finance are key industries, and Swiss watches and chocolate are world renowned. ",
+        "img": "https://i.ibb.co/RQVQKj1/album9.jpg"
+    }
+]

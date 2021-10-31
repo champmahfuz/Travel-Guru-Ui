@@ -1,0 +1,25 @@
+.service img{
+    height: 220px; 
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 30px;
+   
+}
+
+.service{
+    /* margin-left: 40px;
+    width: 350px; */
+    background-color: rgb(227, 236, 236);
+    border: 1px solid rgb(231, 220, 220);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px #0000007c;
+
+}
+.service p{
+    padding: 10px;
+    margin: 10px;
+}
+
+.service button{
+    box-shadow: 1px 1px 10px 2px #0000007c;
+}
