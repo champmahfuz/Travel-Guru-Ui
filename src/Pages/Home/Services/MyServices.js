@@ -12,7 +12,7 @@ const MyServices = () => {
     const [onlyMyPlan, setOnlyMyPlan] = useState([]);
     const [details, setDetails] = useState([]);
     useEffect(() => {
-        const url = `http://localhost:5000/myServicesPlan`;
+        const url = `https://grisly-skull-33698.herokuapp.com/myServicesPlan`;
         fetch(url)
             .then(res => res.json())
             .then(data => setOnlyMyPlan(data));
@@ -28,7 +28,7 @@ const MyServices = () => {
     const handleDeleteServices = id => {
         const proced = window.confirm('Are You sure you want to delete..?');
         if (proced) {
-            const url = `http://localhost:5000/myServicesPlan/${id}`;
+            const url = `https://grisly-skull-33698.herokuapp.com/myServicesPlan/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

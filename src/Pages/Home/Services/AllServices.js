@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const AllServices = () => {
     const [allPlan, setAllPlan] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/myServicesPlan')
+        fetch('https://grisly-skull-33698.herokuapp.com/myServicesPlan')
             .then(res => res.json())
             .then(data => setAllPlan(data));
 

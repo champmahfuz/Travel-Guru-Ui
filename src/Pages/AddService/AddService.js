@@ -12,7 +12,7 @@ const AddService = () => {
     const redirect_uri = location.state?.from || '/services';
 
     const onSubmit = data => {
-        axios.post('http://localhost:5000/services', data)
+        axios.post('https://grisly-skull-33698.herokuapp.com/services', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('added successfully');

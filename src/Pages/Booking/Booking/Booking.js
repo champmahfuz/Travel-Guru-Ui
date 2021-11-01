@@ -21,7 +21,7 @@ const Booking = () => {
     const { serviceId } = useParams();
 
     useEffect(() => {
-        const url = `http://localhost:5000/services/${serviceId}`;
+        const url = `https://grisly-skull-33698.herokuapp.com/services/${serviceId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setMyPlan(data));
@@ -35,7 +35,7 @@ const Booking = () => {
         const description = descriptionRef.current.value;
         const status = statusRef.current.value;
         const newPlan = { title, username, email, description, price, status };
-        fetch('http://localhost:5000/myServices', {
+        fetch('http://https://grisly-skull-33698.herokuapp.com/myServices', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
