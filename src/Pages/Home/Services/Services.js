@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Service from '../Service/Service';
 import './Services.css'
 
@@ -18,7 +19,11 @@ const Services = () => {
                     services.map(service => <Service
                         key={service.id}
                         service={service}
-                    ></Service>)
+
+                    >
+
+                    </Service>)
+
                 }
 
 

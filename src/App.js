@@ -16,6 +16,10 @@ import AddService from './Pages/AddService/AddService';
 import Register from './Pages/Register/Register';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import ManageServices from './Pages/ManageServices/ManageServices';
+import MyServices from './Pages/Home/Services/MyServices';
+import AllServices from './Pages/Home/Services/AllServices';
+
+
 
 
 function App() {
@@ -39,6 +43,12 @@ function App() {
             </Route>
             <Route path="/albums">
               <Albums></Albums>
+            </Route>
+            <Route path="/myservices">
+              <MyServices></MyServices>
+            </Route>
+            <Route path="/allservices">
+              <AllServices></AllServices>
             </Route>
             <PrivateRoute path="/booking/:serviceId">
               <Booking></Booking>
@@ -66,6 +76,7 @@ function App() {
         </Router>
       </AuthProvider>
     </div>
+
   );
 }
 

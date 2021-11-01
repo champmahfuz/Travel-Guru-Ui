@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Button, Container, Nav, Navbar } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 import { HashLink } from 'react-router-hash-link';
@@ -16,10 +16,20 @@ const Header = () => {
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
-                        <Nav.Link as={Link} to="/services">Services</Nav.Link>
+
+                        <NavDropdown title="Services" id="basic-nav-dropdown">
+                            <NavDropdown.Item as={Link} to="/services">Services</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/myservices">MyServices</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/allservices">AllServices</NavDropdown.Item>
+
+                        </NavDropdown>
+
                         <Nav.Link as={Link} to="/albums">Albums</Nav.Link>
                         <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                         <Nav.Link as={Link} to="/addService">AddService</Nav.Link>
+
+
+
                         <Nav.Link as={Link} to="/manageServices">ManageServices</Nav.Link>
                         <Nav.Link as={Link} to="/register">Register</Nav.Link>
                         {user?.email ?
