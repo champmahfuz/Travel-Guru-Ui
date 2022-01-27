@@ -22,5 +22,5 @@ const Register = () => {
         </div>
     );
 };
-
+//added comment
 export default Register;
